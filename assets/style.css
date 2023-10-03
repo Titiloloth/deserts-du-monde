@@ -12,6 +12,10 @@
     background-color: white;
 }
 
+body {
+    padding-bottom: 5%;
+}
+
     /* Haut de l'application */
 
 header {
@@ -76,7 +80,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: white
+    background-color: white; 
 }
 
 .section2 {
@@ -238,7 +242,7 @@ main {
 } 
 
 .top {
-    padding-top: 12%;
+    padding-top: 19%;
     width: 100%;
     padding-right: 10%;
 }
@@ -250,4 +254,9 @@ main {
     bottom: 150px;
 }
 
+/* Bas de l'application */
+
+footer {
+    padding-top: 1%;
+}
 }
