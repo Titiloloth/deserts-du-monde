@@ -1,0 +1,241 @@
+/* VERSION MOBILE */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 11px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #E2E2E2;
+}
+
+.background {
+    background-color: white;
+}
+
+    /* Haut de l'application */
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Croissant One', cursive;
+    font-size: 17px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: #BA5C22
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    height: 30px;
+    background-color: lightgrey;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-weight: 900;
+}
+
+    /* Corps de l'application */
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2 {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 900;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.image-desert {
+    display: block;
+    width: 250px;
+    height: auto;
+    margin-bottom: 5%;
+}
+
+.texte-principal {
+    text-align: justify;
+    margin: 5%;
+}
+
+    /* Bas de l'application */
+
+footer {
+    border-top: 2px solid lightgrey;
+    padding-top: 4%;
+    text-align: center;
+}
+
+.section2 {
+    display: none;
+}
+
+/* VERSION TABLETTE */
+
+@media screen and (min-width: 768px) {
+
+* {
+    font-size: 15px;
+}
+
+.background {
+    width: 94%;
+    margin-left: 3%;
+}
+
+
+    /* Haut de l'application */
+
+nav {
+    background-color: lightgrey;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+    /* Corps de l'application */
+
+h2 {
+    font-size: 20px;
+}
+
+.image-desert {
+    width: 700px;
+    height: auto;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 2px solid lightgrey;
+    padding-bottom: 10%;
+
+}
+
+.top {
+    margin: 5%;
+    width: 40%;
+    font-weight: 900;
+}
+
+h3 {
+    font-size: 17px;
+    color: #A43F00;
+    padding-bottom: 4%;
+    margin-bottom: 10%;
+    border-bottom: 2px solid lightgray;
+}
+
+ol {
+    margin-left: 5%;
+}
+
+.galerie {
+    margin: 5%;
+    width: 60%;
+}
+
+}
+
+/* VERSION ORDINATEUR */
+
+@media screen and (min-width: 1024px) {
+
+.background {
+    width: 80%;
+    margin-left: 10%;
+    }
+
+    /* Haut de l'application */
+
+.header-ordi-ver {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 2%;
+    border-bottom: 2px solid lightgray;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+h1 {
+    display: block;
+    width: 250px;
+    padding-left: 5%;
+}
+
+nav {
+    width: 100%;
+    background-color: white;
+}
+
+ul {
+    margin-left: 30%;
+    margin-top: 4%;
+}
+
+.nav {
+    background-color: white;
+}
+
+    /* Corps de l'application */
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.section1 {
+    width: 100%;
+} 
+
+.image-desert {
+    width: 100%;
+}
+
+.section2 {
+    border-top: none;
+    display: flex;
+    flex-direction: column;
+    padding-left: 3%;
+} 
+
+.top {
+    width: 100%;
+    padding-right: 10%;
+}
+
+.galerie {
+    width: 100%;
+    padding-right: 10%;
+    position: relative;
+    bottom: 150px;
+}
+
+}
