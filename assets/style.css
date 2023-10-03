@@ -8,7 +8,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-/* Haut de l'application */
+    /* Haut de l'application */
 
 header {
     display: flex;
@@ -24,11 +24,11 @@ h1 {
     color: #BA5C22
 }
 
-li {
+.nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
     height: 30px;
     background-color: lightgrey;
     margin-top: 1px;
@@ -36,9 +36,9 @@ li {
     font-weight: 900;
 }
 
-/* Corps de l'application */
+    /* Corps de l'application */
 
-main {
+.section1 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -48,7 +48,7 @@ h2 {
     font-size: 15px;
     font-weight: 900;
     margin-top: 10%;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
 }
 
 .image-desert {
@@ -63,10 +63,85 @@ h2 {
     margin: 5%;
 }
 
-/* Bas de l'application */
+    /* Bas de l'application */
 
 footer {
     border-top: 2px solid lightgrey;
     padding-top: 4%;
     text-align: center;
+}
+
+.section2 {
+    display: none;
+}
+
+/* VERSION TABLETTE */
+
+@media screen and (min-width: 768px) {
+
+* {
+    font-size: 15px;
+}
+
+    /* Haut de l'application */
+
+nav {
+    background-color: lightgrey;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+    /* Corps de l'application */
+
+h2 {
+    font-size: 20px;
+}
+
+.image-desert {
+    width: 700px;
+    height: auto;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 2px solid lightgrey;
+    padding-bottom: 10%;
+
+}
+
+.top {
+    margin: 5%;
+    width: 40%;
+    font-weight: 900;
+}
+
+h3 {
+    font-size: 17px;
+    color: #A43F00;
+    padding-bottom: 4%;
+    margin-bottom: 10%;
+    border-bottom: 2px solid lightgray;
+}
+
+ol {
+    margin-left: 5%;
+}
+
+.galerie {
+    margin: 5%;
+    width: 60%;
+}
+
 }
